@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+#wrap {
+    width: 390px;
+    height: 844px;
+}
+
+#top {
+    width: 342px;
+    height: 44.86px;
+    margin: 28px 24px 33px 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconstop {
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+.bkconfig {
+    width: 341px;
+    height: 55px;
+    margin: 0 24px 0 24px;
+    position: relative;
+}
+
+.nome {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: 10px 110px 5px 3.2px;
+    display: inline-block;
+
+    color: #F0F0F0;
+}
+
+#config {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 91.5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+option {
+    background-color: #1E1E1E;
+    outline: none;
+    box-shadow: none;
+}
+
+.valor {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.olho {
+    position: absolute;
+    top: 68%;
+}
+
+.criptos {
+    width: 300px;
+    height: 245px;
+    margin: 48px auto 0 auto;
+}
+
+.criptos .criptostitulo {
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.retangulo {
+    width: 300px;
+    height: 220px;
+    background: #FF4D00;
+    box-shadow: 3px 3px 1px rgba(204, 61, 0, 0.5);
+    border-radius: 20px;
+
+    position: relative;
+}
+
+#topocriptos {
+    padding: 13px 27px 0 10px;
+    width: 263px;
+    height: 29px;
+
+    position: relative;
+}
+
+.bitcoin {
+    width: 25px;
+    height: 25px;
+
+    float: left;
+}
+
+#topocriptos .cotacaocripto {
+    position: absolute;
+    right: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFF;
+    display: inline-block;
+}
+
+#topocriptos .valorcripto {
+    position: absolute;
+    right: 27px;
+
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+#topocriptos .siglamoeda {
+    position: absolute;
+    top: 28px;
+    left: 39px;
+
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #FFFFFF;
+}
+
+#topocriptos select {
+    position: absolute;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.grafico {
+    display: block;
+    margin: 36px auto 0 auto;
+}
+
+.bolinha-grafico {
+    position: absolute;
+    top: 82.2px;
+    left: 155px;
+}
+
+#risco-grafico {
+    position: absolute;
+    top: 60px;
+    left: 158px;
+
+    width: 0.5px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#data-grafico {
+    position: absolute;
+    top: 46.5px;
+    left: 133.2px;
+
+    width: 52px;
+    height: 10px;
+    padding-left: 2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+
+    background-color: #fff;
+    border-radius: 4px;
+
+    color: #FF4D00;
+}
+
+#baixocriptos {
+    position: relative;
+    width: 276px;
+    height: 15px;
+    display: flex;
+    margin: 26.47px auto 25px auto;
+    /*     background-color: rgba(51, 60, 60, 0.5); */
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#baixocriptos p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    z-index: 1;
+}
+
+#baixocriptos a {
+    text-decoration: none;
+    z-index: 1;
+}
+
+.dia {
+    margin-left: 25px;
+}
+
+.ano {
+    margin-right: 25px;
+}
+
+#selecionado {
+    position: absolute;
+    width: 47px;
+    height: 16px;
+    background-color: #000;
+    border-radius: 100px;
+    z-index: 0;
+    left: 12.5px;
+}
+
+#funcionalidades {
+    width: 298px;
+    height: 261px;
+
+    position: relative;
+    margin: 55px auto 67px auto;
+}
+
+.movimentar {
+    position: absolute;
+    top: 3px;
+    left: 28px;
+}
+
+.pix {
+    position: absolute;
+    left: 200px;
+}
+
+.extrato {
+    position: absolute;
+    top: 143px;
+    left: 28px;
+}
+
+.investimento {
+    position: absolute;
+    bottom: 32.11px;
+    right: 11.11px;
+}
+
+#funcionalidades p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.texto-movimentar {
+    position: absolute;
+    top: 93px;
+}
+
+.texto-pix {
+    position: absolute;
+    top: 96px;
+    right: 43px;
+}
+
+.texto-extrato {
+    position: absolute;
+    left: 43px;
+    bottom: 0px;
+}
+
+.texto-investimento {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

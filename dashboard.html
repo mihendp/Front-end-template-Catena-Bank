@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styledashboard.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="top">
+            <img class="iconstop" src="assets/img/sino.png" alt="">
+            <img src="assets/img/logo-minimalista.png" alt="">
+            <img class="iconstop" src="assets/img/sol.png" alt="">
+        </header>
+        <section class="bkconfig">
+            <p class="nome">BurgerKing Investimentos</p>
+            <a href="config.html"> <img id="config" src="assets/img/config.png" alt=""></a>
+            <select name="moedas" id="">
+                <option value="">R$</option>
+                <option value="">$</option>
+                <option value="">€</option>
+                <option value="">£</option>
+                <option value="">¥</option>
+            </select>
+            <p class="valor">50.160,68</p>
+            <img class="olho" src="assets/img/olho.png" alt="">
+        </section>
+        <section class="criptos">
+            <p class="criptostitulo">Cripto Moedas</p>
+            <div class="retangulo">
+                <header id="topocriptos">
+                    <img class="bitcoin" src="assets/img/bitcoincripto.png" alt="">
+                    <select>
+                        <option value="">Bitcoin</option>
+                        <option value="">Etherium</option>
+                        <option value="">Polygon</option>
+                        <option value="">Solana</option>
+                        <option value="">Aave</option>
+                    </select>
+                    <p class="cotacaocripto">R$</p>
+                    <p class="valorcripto">135.234,75</p>
+                    <p class="siglamoeda">BTC</p>
+                </header>
+                <img class="grafico" src="assets/img/grafico.png" alt="">
+                <img class="bolinha-grafico" src="assets/img/bolinha-grafico.png" alt="">
+                <div id="risco-grafico"></div>
+                <p id="data-grafico">30 MAI 19:00</p>
+                <footer id="baixocriptos">
+                    <div id="selecionado"></div>
+                    <a href="#" onclick="selecionarDia()">
+                        <p class="dia">24h</p>
+                    </a>
+
+                    <a href="#" onclick="selecionarSemana()">
+                        <p class="semana">1S</p>
+                    </a>
+                    <a href="#" onclick="selecionarMes()">
+                        <p class="mes">1M</p>
+                    </a>
+
+                    <a href="#" onclick="selecionarAno()">
+                        <p class="ano">1A</p>
+                    </a>
+
+                </footer>
+        </section>
+        <section id="funcionalidades">
+            <a href=""> <img class="movimentar" src="assets/img/movimentar.png" alt="">
+                <p class="texto-movimentar">Movimentar Conta</p>
+            </a>
+
+            <a href=""> <img class="pix" src="assets/img/pix.png" alt="">
+                <p class="texto-pix">Pix</p>
+            </a>
+
+            <a href=""> <img class="extrato" src="assets/img/extrato.png" alt="">
+                <p class="texto-extrato">Extrato</p>
+            </a>
+
+            <a href=""> <img class="investimento" src="assets/img/investimento.png" alt="">
+                <p class="texto-investimento">Investimentos</p>
+            </a>
+
+        </section>
+    </div>
+
+    <script>
+        var select = document.querySelector('#selecionado')
+
+        function selecionarDia() {
+            select.style.left = "12.5px";
+        }
+
+        function selecionarSemana() {
+            select.style.left = "83px";
+        }
+
+        function selecionarMes() {
+            select.style.left = "152px";
+        }
+
+        function selecionarAno() {
+            select.style.left = "220px";
+        }
+    </script>
+</body>
+
+</html>

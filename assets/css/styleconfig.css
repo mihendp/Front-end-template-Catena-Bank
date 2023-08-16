@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+#wrap {
+    width: 390px;
+    height: 844px;
+}
+
+
+#top {
+    width: 342px;
+    height: 44.86px;
+    margin: 28px 24px 33px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconstop {
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+.iphone-12-pro {
+    text-align: center;
+    max-width: 428px;
+    /* Largura do iPhone 12 Pro Max em pixels */
+    margin: 28px auto;
+
+    color: rgb(255, 255, 255);
+
+}
+
+.texto-agencia {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.texto-instituicao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.config {
+    color: rgb(255, 255, 255);
+    margin-left: 23px;
+    margin-top: 38px;
+
+}
+
+.config article {
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.titulos {
+    width: 320px;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+
+}
+
+.dados {
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F0F0F0;
+}
+
+.setinhas {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 25%;
+    right: 28px;
+}
+
+.edits {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 25%;
+    right: 28px;
+}
+
+.rodapeconfig {
+    width: 226px;
+    height: 19px;
+    margin: 294px auto 0 auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FF4D00;
+}

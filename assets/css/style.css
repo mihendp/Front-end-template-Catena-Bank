@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+#wrap {
+    width: 390px;
+    height: 844px;
+}
+
+#logo {
+    width: 120px;
+    margin: 59px auto 0 auto;
+    display: block;
+}
+
+#nome {
+    position: absolute;
+    width: 295px;
+    height: 21px;
+    left: 48px;
+    top: 322px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    padding-left: 5px;
+    border-bottom: 1px white solid;
+}
+
+#nome::placeholder {
+    color: #FF4D00;
+}
+
+#nome:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#senha {
+    position: absolute;
+    width: 295px;
+    height: 21px;
+    left: 48px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    border: none;
+    background-color: transparent;
+
+    color: #FFFFFF;
+
+    padding-left: 5px;
+    border-bottom: 1px white solid;
+}
+
+#senha:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#senha::placeholder {
+    color: #FF4D00;
+}
+
+section a {
+    text-decoration: none;
+}
+
+
+#login {
+    display: block;
+    width: 180px;
+    height: 40px;
+
+    margin: 310.79px auto 0 auto;
+
+
+    background: #FF4D00;
+    border-radius: 12px;
+
+    border: none;
+    padding: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+#login:active {
+    background-color: #D84100;
+}
+
+footer {
+    width: 226px;
+    height: 19px;
+    margin: 263px auto 0 auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FF4D00;
+}
+
+#cadastre {
+    display: block;
+    width: 93px;
+    height: 19px;
+    margin: 11px auto 0 auto;
+
+
+    text-decoration: underline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FF4D00;
+}
+
+
+#google {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 79px;
+    top: 599px;
+}
+
+#metamask {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 275px;
+    top: 599px;
+
+}
+
+#apple {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 177px;
+    top: 599px;
+}
+
+/* Cadastre-se */
+
+#cadastramento {
+    position: absolute;
+    width: 295px;
+    height: 277px;
+    left: 48px;
+    top: 271px;
+}
+
+.cadastros {
+    width: 295px;
+    height: 19px;
+    left: 48px;
+
+    margin-bottom: 32px;
+
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    padding-left: 5px;
+    border-bottom: 1px white solid;
+
+}
+
+
+
+#cadastramento:last-child {
+    margin-bottom: 0;
+}
+
+.cadastros::placeholder {
+    color: #FF4D00;
+}
+
+.cadastros:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#cadastrar {
+    position: absolute;
+    width: 180px;
+    height: 42px;
+    left: 104px;
+    top: 606px;
+
+
+    background: #FF4D00;
+    border-radius: 12px;
+
+    border: none;
+    padding: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+#cadastrar:active {
+    background-color: #D84100;
+}
+
+#google-cad {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 78px;
+    top: 735px;
+}
+
+#metamask-cad {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 274px;
+    top: 735px;
+
+
+}
+
+#apple-cad {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 176px;
+    top: 735px;
+
+}
+
+#japossuilogin {
+    width: 168px;
+    height: 19px;
+    display: block;
+    margin: 480px auto 0 auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FF4D00;
+
+}
+
+.rodapecadastre {
+    display: block;
+    margin: 144px auto 0 auto;
+}
